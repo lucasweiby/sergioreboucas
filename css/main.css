@@ -1,6 +1,7 @@
 @import url(../fonts/stylesheet.css);
 .navbar {
-  display: none; }
+  display: none;
+  z-index: -2; }
 
 .cabecalho {
   height: 100vh;
@@ -9,24 +10,46 @@
   background-image: url("../img/FotoBG1.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  z-index: -1; }
   .cabecalho .logo-img {
     position: relative;
-    top: 8vh;
+    top: 10vh;
     left: 8vw; }
   .cabecalho .links {
     position: relative;
     top: 8vh;
     left: 8vw; }
-    .cabecalho .links a {
+    .cabecalho .links .main-link {
       text-decoration: none;
       border: 1px solid #A57B48;
       border-radius: 20px;
       padding: 8px 15px;
-      margin-right: 5%;
+      margin-right: 2%;
       color: #FFFEFC;
       font-family: "Darwin";
       font-size: 15px;
-      font-weight: lighter; }
+      font-weight: lighter;
+      transition: background-color 0.3s ease-in-out; }
+      .cabecalho .links .main-link:hover {
+        background-color: #A57B48; }
+  .cabecalho .sociais {
+    float: right; }
+    .cabecalho .sociais ul li {
+      float: left;
+      list-style: none;
+      color: #FFFEFC;
+      position: relative;
+      top: 4vh;
+      right: 8vw; }
+
+.pic1 {
+  width: 100vw;
+  z-index: 2; }
+  .pic1 .pic-header {
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+    left: 12%; }
 
 /*# sourceMappingURL=main.css.map */
