@@ -8,6 +8,8 @@
 
   <?php include 'views/header.php' ?>
 
+  <?php include 'views/book.php' ?>
+
   <?php include 'conf/scripts.php' ?>
 </body>
 </html>

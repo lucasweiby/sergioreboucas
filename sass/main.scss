@@ -1,68 +1,10 @@
 @import "_variables";
 
-.navbar {
-  display: none;
-  z-index: -2;
-}
+//views
+@import "views/_header";
+@import "views/_nav";
+@import "views/_book";
 
-.cabecalho {
-  height: 100vh;
-  width: 100vw;
+body {
   overflow-x: hidden;
-  background-image: url("../img/FotoBG1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-  .logo-img {
-    position: relative;
-    top: 10vh;
-    left: 8vw;
-  }
-
-  .links {
-    position: relative;
-    top: 8vh;
-    left: 8vw;
-    .main-link {
-      text-decoration: none;
-      border: 1px solid $gold;
-      border-radius: 20px;
-      padding: 8px 15px;
-      margin-right: 2%;
-      color: $glacial;
-      font-family: "Darwin";
-      font-size: 15px;
-      font-weight: lighter;
-      transition: background-color 0.3s ease-in-out;
-      &:hover {
-        background-color: $gold;
-      }
-    }
-  }
-
-  .sociais {
-    float: right;
-    ul {
-      li {
-        float: left;
-        list-style: none;
-        color: $glacial;
-        position: relative;
-        top: 4vh;
-        right: 8vw;
-      }
-    }
-  }
-}
-
-.pic1 {
-  width: 100vw;
-  z-index: 2;
-  .pic-header {
-    display: block;
-    overflow-x: hidden;
-    position: relative;
-    left: 12%;
-  }
 }

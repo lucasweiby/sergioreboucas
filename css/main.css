@@ -1,11 +1,8 @@
 @import url(../fonts/stylesheet.css);
-.navbar {
-  display: none;
-  z-index: -2; }
-
 .cabecalho {
   height: 100vh;
   width: 100vw;
+  overflow-y: hidden;
   overflow-x: hidden;
   background-image: url("../img/FotoBG1.jpg");
   background-position: center;
@@ -15,17 +12,18 @@
   .cabecalho .logo-img {
     position: relative;
     top: 10vh;
-    left: 8vw; }
+    left: 5vw;
+    z-index: 10; }
   .cabecalho .links {
     position: relative;
     top: 8vh;
-    left: 8vw; }
+    left: 5vw; }
     .cabecalho .links .main-link {
       text-decoration: none;
       border: 1px solid #A57B48;
       border-radius: 20px;
       padding: 8px 15px;
-      margin-right: 2%;
+      margin-right: 1%;
       color: #FFFEFC;
       font-family: "Darwin";
       font-size: 15px;
@@ -41,15 +39,80 @@
       color: #FFFEFC;
       position: relative;
       top: 4vh;
-      right: 8vw; }
+      right: 2vw;
+      margin: 0 10px 0 0; }
+      .cabecalho .sociais ul li .icon {
+        text-decoration: none; }
+      .cabecalho .sociais ul li .yb {
+        color: red; }
+      .cabecalho .sociais ul li .fb {
+        color: #3e5b98; }
+      .cabecalho .sociais ul li .ig {
+        color: #EC9313; }
 
 .pic1 {
   width: 100vw;
-  z-index: 2; }
+  z-index: 2;
+  margin-top: -26vh; }
   .pic1 .pic-header {
     display: block;
     overflow-x: hidden;
     position: relative;
-    left: 12%; }
+    left: 8%; }
+
+.about {
+  position: relative;
+  top: 35vh;
+  left: 5vw;
+  width: 99%;
+  z-index: 3; }
+  .about p {
+    color: #FFFEFC;
+    font-family: "Darwin";
+    padding-right: 10%; }
+    .about p a {
+      text-decoration: none;
+      border: 1px solid #A57B48;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin-right: 1%;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      transition: background-color 0.3s ease-in-out; }
+      .about p a:hover {
+        background-color: #A57B48; }
+
+.navbar {
+  display: none;
+  z-index: -2; }
+
+#book {
+  width: 100vw;
+  height: auto;
+  padding: 4vh 6vw;
+  background-color: #323542; }
+  #book .presentation {
+    padding: 2% 0 2% 2%;
+    font-family: "Bebas Neue";
+    color: #A57B48;
+    font-size: 40px;
+    line-height: 1.2; }
+    #book .presentation .legend {
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      padding: 0 20% 0 0; }
+  #book .livro img {
+    margin-left: -10%; }
+  #book .sinopse {
+    padding: 4% 0 2% 2%;
+    font-family: "DarwinAlt";
+    color: #FFFEFC;
+    line-height: 1.2; }
+
+body {
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=main.css.map */
