@@ -10,6 +10,10 @@
 
   <?php include 'views/book.php' ?>
 
+  <?php include 'views/about.php' ?>
+
+  <?php include 'views/contact.php' ?>
+
   <?php include 'conf/scripts.php' ?>
 </body>
 </html>

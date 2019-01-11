@@ -111,8 +111,139 @@
     font-family: "DarwinAlt";
     color: #FFFEFC;
     line-height: 1.2; }
+    #book .sinopse .main-link {
+      text-decoration: none;
+      border: 1px solid #A57B48;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin-right: 1%;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      margin: 2% 0;
+      transition: background-color 0.3s ease-in-out; }
+      #book .sinopse .main-link:hover {
+        background-color: #A57B48; }
+
+#about {
+  width: 100vw;
+  height: auto;
+  padding: 2% 2% 0;
+  background-color: #A57B48; }
+  #about .text {
+    padding: 8% 2% 0 10%; }
+    #about .text h1 {
+      font-family: "Bebas Neue";
+      font-size: 60px;
+      color: #323542; }
+    #about .text p {
+      line-height: 1.2;
+      color: #FFFEFC;
+      font-family: "DarwinAlt"; }
+    #about .text .main-link {
+      text-decoration: none;
+      border: 1px solid #323542;
+      border-radius: 20px;
+      padding: 8px 15px;
+      color: #FFFEFC;
+      font-family: "Darwin";
+      font-size: 15px;
+      font-weight: lighter;
+      margin: 2% 0;
+      transition: background-color 0.3s ease-in-out; }
+      #about .text .main-link:hover {
+        background-color: #323542; }
+  #about .profile-box .profile {
+    width: 50vw;
+    position: relative;
+    right: 10%; }
+
+#contact {
+  padding: 5% 10%;
+  width: 100vw;
+  height: auto;
+  background-image: url("../img/FotoBG2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #contact h1 {
+    font-family: "Bebas Neue";
+    color: #A57B48;
+    font-size: 60px; }
+  #contact p {
+    color: #FFFEFC;
+    font-family: "DarwinAlt";
+    font-size: 20px; }
+  #contact .link-site {
+    font-size: 12px; }
+    #contact .link-site i {
+      margin-right: 1%;
+      color: #A57B48; }
+    #contact .link-site a {
+      text-decoration: none;
+      color: #FFFEFC;
+      transition: color 0.3s ease-in-out; }
+      #contact .link-site a:hover {
+        color: #A57B48;
+        border-bottom: 1px solid #A57B48; }
+  #contact .sociais ul {
+    list-style: none;
+    position: relative;
+    left: -8%; }
+    #contact .sociais ul li {
+      float: left;
+      list-style: none;
+      color: #FFFEFC;
+      margin-right: 10px; }
+      #contact .sociais ul li .icon {
+        text-decoration: none; }
+      #contact .sociais ul li .yb {
+        color: red; }
+      #contact .sociais ul li .fb {
+        color: #3e5b98; }
+      #contact .sociais ul li .ig {
+        color: #EC9313; }
+  #contact form {
+    width: 100%; }
+    #contact form input {
+      width: 100%;
+      margin: 0.5% 0;
+      padding: 2%;
+      text-align: center;
+      background-color: transparent;
+      border: 1px solid #FFFEFC;
+      color: #FFFEFC;
+      font-size: 12px;
+      font-family: "Nexa";
+      transition: border-color 0.3s ease-in-out; }
+      #contact form input::placeholder {
+        text-align: center;
+        color: #FFFEFC;
+        font-family: "Nexa"; }
+      #contact form input:focus, #contact form input:active {
+        border-color: #A57B48;
+        outline-width: 0; }
+    #contact form input[type=submit] {
+      border-color: #A57B48;
+      transition: background-color 0.3s ease-in-out; }
+      #contact form input[type=submit]:hover {
+        background-color: #A57B48; }
 
 body {
   overflow-x: hidden; }
+
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4; }
+
+::-webkit-scrollbar {
+  width: 3px;
+  background: #F4F4F4;
+  transition: width 0.3s ease-in-out; }
+  ::-webkit-scrollbar:hover {
+    width: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #F1B469; }
 
 /*# sourceMappingURL=main.css.map */

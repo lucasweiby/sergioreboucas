@@ -8,7 +8,9 @@
             <img src="img/livro.png" alt="" class="book-img">
         </div>
         <div class="col-md-4 sinopse">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, sequi sapiente ex facilis pariatur, temporibus velit quis repellendus dolor omnis autem, molestias voluptate eos voluptates nostrum ullam ab eligendi aliquam odio commodi neque tempora delectus. Ullam eligendi et veritatis. Totam aspernatur eius non laboriosam ratione illo dicta! Possimus, mollitia eveniet nulla, delectus impedit dicta est voluptatum natus voluptatibus exercitationem distinctio!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sit architecto nemo quia fugit deleniti odit iste tempora corrupti aperiam quod, sint hic! Totam cupiditate non odio commodi recusandae voluptates. Praesentium est perspiciatis repellat voluptas officiis. Blanditiis rerum aut nobis autem sed magni earum, ad soluta odio nisi velit nulla impedit eius nesciunt? Accusantium nostrum sed qui quo officia assumenda quis a, temporibus repudiandae provident molestiae vitae non quaerat animi, cumque laborum dolore consequuntur doloremque recusandae, quod eum sequi quidem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A corrupti alias fuga, inventore molestiae eos!</p>
+            <p><a href="#" class="main-link">COMPRE</a></p>
         </div>
     </div>
 </section>
