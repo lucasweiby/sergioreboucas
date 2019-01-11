@@ -1,5 +1,5 @@
 #contact {
-    padding: 5% 10%;
+    padding: 10% 10%;
     width: 100vw;
     height: auto;
     background-image: url("../img/FotoBG2.png");
@@ -84,7 +84,7 @@
         }
         input[type=submit] {
             border-color: $gold;
-            transition: background-color 0.3s ease-in-out;
+            transition: background-color 0.2s ease-in-out;
             &:hover {
                 background-color: $gold;
             }

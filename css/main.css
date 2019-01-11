@@ -160,7 +160,7 @@
     right: 10%; }
 
 #contact {
-  padding: 5% 10%;
+  padding: 10% 10%;
   width: 100vw;
   height: auto;
   background-image: url("../img/FotoBG2.png");
@@ -226,9 +226,68 @@
         outline-width: 0; }
     #contact form input[type=submit] {
       border-color: #A57B48;
-      transition: background-color 0.3s ease-in-out; }
+      transition: background-color 0.2s ease-in-out; }
       #contact form input[type=submit]:hover {
         background-color: #A57B48; }
+
+footer {
+  width: 100vw;
+  height: 120px;
+  padding: 2% 3% 1%;
+  background-color: #A57B48;
+  z-index: -1; }
+  footer .logo-footer {
+    position: relative;
+    float: right;
+    z-index: 10; }
+  footer .links {
+    z-index: 11; }
+    footer .links .link-site {
+      font-size: 15px;
+      z-index: 1; }
+      footer .links .link-site i {
+        margin-right: 1%;
+        color: #323542; }
+      footer .links .link-site a {
+        font-family: "DarwinAlt";
+        text-decoration: none;
+        color: #323542;
+        transition: color 0.3s ease-in-out; }
+        footer .links .link-site a:hover {
+          color: #FFFEFC;
+          border-bottom: 1px solid #FFFEFC; }
+    footer .links .sociais {
+      z-index: 1; }
+      footer .links .sociais ul {
+        list-style: none;
+        position: relative;
+        left: -8%; }
+        footer .links .sociais ul li {
+          float: left;
+          list-style: none;
+          color: #FFFEFC;
+          margin-right: 10px; }
+          footer .links .sociais ul li .icon {
+            text-decoration: none; }
+          footer .links .sociais ul li .yb {
+            color: red; }
+          footer .links .sociais ul li .fb {
+            color: #3e5b98; }
+          footer .links .sociais ul li .ig {
+            color: #EC9313; }
+
+.img-footer {
+  width: 100vw;
+  z-index: 2;
+  position: relative;
+  top: -220%; }
+  .img-footer img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    height: 200px;
+    left: -2%; }
 
 body {
   overflow-x: hidden; }

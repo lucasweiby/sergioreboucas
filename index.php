@@ -14,6 +14,8 @@
 
   <?php include 'views/contact.php' ?>
 
+  <?php include 'views/footer.php' ?>
+
   <?php include 'conf/scripts.php' ?>
 </body>
 </html>
